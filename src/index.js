@@ -20,8 +20,7 @@ const run = () => {
     demo1.scrollTop = 999999999
 }
 let id = setInterval(
-    run
-    , time
+    run, time
 )
 let play = () => {
     return id = setInterval(run, time)
@@ -39,12 +38,12 @@ btnPlay.onclick = () => {
 
 btnSlow.onclick = () => {
     pause()
-    time = 200
+    time = 100
     play()
 }
 btnNormal.onclick = () => {
     pause()
-    time = 100
+    time = 50
     play()
 }
 btnFast.onclick = () => {

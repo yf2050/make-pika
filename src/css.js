@@ -4,11 +4,11 @@ let string = `<style>
     position: relative;
     min-height: 50vh;
 }
-
+/*你好，我是喻峰，一位前端的追梦人！*/
 /*制作鼻子*/
 .nose {
     position: absolute;
-    top: 160px;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -29,7 +29,7 @@ let string = `<style>
     transform: translateX(-50%);
     background-color: #2e2e2e;
     border-radius: 50%;
-    top: 120px;
+    top: 40px;
 }
 
 .eye.left {
@@ -88,7 +88,7 @@ let string = `<style>
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 250px;
+    top: 170px;
     z-index: 1;
 }
 
@@ -107,11 +107,11 @@ let string = `<style>
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 210px;
+    top: 130px;
 }
 
 .mouth .up .lip {
-    border: 5px solid red;
+    border: 5px solid #000;
     width: 125px;
     height: 20px;
     position: absolute;
@@ -212,5 +212,6 @@ let string = `<style>
     animation: wave 1s infinite;
     transform-origin: center center;
     margin-left: -20px;}
+/*这只皮卡丘送给你，祝你每天开心！*/    
 </style>`
 export default string
